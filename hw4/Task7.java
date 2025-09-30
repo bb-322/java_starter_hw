@@ -16,7 +16,7 @@ public class Task7 {
                 System.out.println(31);
             }
         } else {
-            if (month % 2 == 0) {
+            if (month % 2 == 0 && month <= 12) {
                 System.out.println(31);
             } else {
                 System.out.println(30);
